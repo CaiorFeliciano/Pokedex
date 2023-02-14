@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,31 +8,32 @@
   <link rel="stylesheet" href="./src/style/style.css">
   <title>Pokédex</title>
 </head>
+
 <body>
   <main>
-    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/6.gif" alt="pokemon" class="pokemon-image">
-
+    <!-- Image Pokemon -->
+    <img
+      src=""
+      alt="pokemon" class="pokemon-image">
+    <!-- Number and Name pokemon -->
     <h1 class="pokemon-data">
-      <span class="pokemon-number">6</span> - 
-      <span class="pokemon-name">charizard</span>
+      <span class="pokemon-number"></span> -
+      <span class="pokemon-name"></span>
     </h1>
-
+    <!-- Pokemon Search -->
     <form class="form">
-      <input 
-      type="search"
-      class="input-search"
-      placeholder="Name or Number"
-      required>
+      <input type="search" class="input-search" placeholder="Name or Number" required>
     </form>
-
+    <!-- Buttons Preview and Next -->
     <div class="buttons">
       <button class="button btn-prev">Prev &lt;</button>
       <button class="button btn-next">Next &gt;</button>
     </div>
-
+    <!-- Image Pokedex -->
     <img src="./src/images/pokedex.png" alt="pokedex" class="pokedex">
 
   </main>
-  
+  <script defer src="./src/script/script.js"></script>
 </body>
+
 </html>
